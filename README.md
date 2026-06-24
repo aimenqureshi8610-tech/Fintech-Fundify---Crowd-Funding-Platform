@@ -84,7 +84,7 @@ npm start
 You should see:
 ```
 🚀 Fundify running at http://localhost:3000
-📋 Admin login: admin@fundify.com / admin123
+📋 Admin login: admin@fundify.com / (set during setup, see ADMIN_PASSWORD)
 ```
 
 ### Step 7 — Open in Browser
@@ -96,7 +96,7 @@ Go to: **http://localhost:3000**
 
 | Role       | Email                  | Password  | Access |
 |------------|------------------------|-----------|--------|
-| Admin      | admin@fundify.com      | admin123  | Full admin panel |
+| Admin      | admin@fundify.com      | set via ADMIN_PASSWORD  | Full admin panel |
 | Fundraiser | Register → select "Fundraise" | any | Create campaigns |
 | Donor      | Register → select "Donate"    | any | Browse & donate |
 
